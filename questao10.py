@@ -17,11 +17,11 @@ t = media_diferencas / math.sqrt(variancia_diferencas / tam_amostras)
 # para 95% de confiança e 14 graus de liberdade
 t_critico = 2.145  
 
-print("Diferencas:", diferencas)
-print("Media das diferencas:", media_diferencas)
-print("Variancia das diferencas:", variancia_diferencas)
-print("Valor t calculado:", t)
-print("Valor critico para 95% de confianca:", t_critico)
+print(f"Diferencas: {diferencas}")
+print(f"Media das diferencas: {media_diferencas:.4f}")
+print(f"Variancia das diferencas: {variancia_diferencas:.4f}")
+print(f"Valor t calculado: {t:.4f}")
+print(f"Valor critico para 95% de confianca: {t_critico:.4f}")
 
 # H0: nao há diferença significativa no desempenho das duas linguagens de programação (a média das diferenças é zero)
 # HA: há uma diferença significativa no desempenho das duas linguagens de programação (a média das diferenças é diferente zero)

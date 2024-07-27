@@ -22,4 +22,4 @@ t = 1.96
 
 margem_de_erro = t * desvio_padrao / math.sqrt(n)
 
-print(f"Margem de erro: {margem_de_erro:.2f} horas")
+print(f"Margem de erro: {margem_de_erro:.4f} horas")

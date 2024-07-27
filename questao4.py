@@ -26,8 +26,8 @@ def intervalo_confianca(media, desvio_padrao, amostra, z):
 
 # 90%
 ic_90 = intervalo_confianca(media, desvio_padrao, amostra, z_90)
-print(f"Intervalo de confianca (90%): US$ {ic_90[0]:.2f} - US$ {ic_90[1]:.2f}")
+print(f"Intervalo de confianca (90%): US$ {ic_90[0]:.4f} - US$ {ic_90[1]:.4f}")
 
 # 99%
 ic_99 = intervalo_confianca(media, desvio_padrao, amostra, z_99)
-print(f"Intervalo de confianca (99%): US$ {ic_99[0]:.2f} - US$ {ic_99[1]:.2f}")
+print(f"Intervalo de confianca (99%): US$ {ic_99[0]:.4f} - US$ {ic_99[1]:.4f}")

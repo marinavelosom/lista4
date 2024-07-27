@@ -32,12 +32,12 @@ t = (media_s1 - media_s2) / math.sqrt(variancia_combinada * (1/tam_amostra_s1 + 
 graus_de_liberdade = tam_amostra_s1 + tam_amostra_s2 - 2
 t_critico = 1.96 
 
-print("Media s1:", media_s1)
-print("Media s2:", media_s2)
-print("Variancia s1:", variancia_s1)
-print("Variancia s2:", variancia_s2)
-print("T:", t)
-print("T critico:", t_critico)
+print(f"Media s1: {media_s1:.4f}")
+print(f"Media s2: {media_s2:.4f}")
+print(f"Variancia s1: {variancia_s1:.4f}")
+print(f"Variancia s2: {variancia_s2:.4f}")
+print(f"T: {t:.4f}")
+print(f"T critico: {t_critico:.4f}")
 
 if abs(t) > t_critico:
     print("Rejeitamos a hipotese nula. Os desempenhos dos servidores sao significativamente diferentes.")

@@ -12,7 +12,7 @@ z = (media_amostral - media_hipotese_nula) / (desvio_padrao / math.sqrt(tamanho_
 # para 1% de significancia
 z_critico = 2.33
 
-print(f'Estatistica z: {z}')
+print(f'Estatistica z: {z:.4f}')
 print(f'Z critico para significancia de {nivel_significancia}: {z_critico}')
 
 # H0 -> tm <= 13s

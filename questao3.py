@@ -18,4 +18,4 @@ limite_inferior = custo_medio - margem_de_erro
 
 limite_superior = custo_medio + margem_de_erro
 
-print(f"Intervalo de confiança (95%): US$ {limite_inferior:.2f} - US$ {limite_superior:.2f}")
+print(f"Intervalo de confianca (95%): US$ {limite_inferior:.4f} - US$ {limite_superior:.4f}")

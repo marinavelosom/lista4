@@ -23,8 +23,8 @@ margem_de_erro = t_critico * desvio_padrao / math.sqrt(tam_amostra)
 limite_inferior = media - margem_de_erro
 limite_superior = media + margem_de_erro
 
-print(f"Estimativa pontual: {media:.2f} ms")
-print(f"Intervalo de confiança (99%): {limite_inferior:.2f} ms - {limite_superior:.2f} ms")
+print(f"Estimativa pontual: {media:.4f} ms")
+print(f"Intervalo de confianca (99%): {limite_inferior:.4f} ms - {limite_superior:.4f} ms")
 
 
 # 186.4978

@@ -18,7 +18,7 @@ margem_erro = z_critico * erro_padrao
 limite_inferior = media_amostral - margem_erro
 limite_superior = media_amostral + margem_erro
 
-print("Media amostral:", media_amostral)
-print("Erro padrao:", erro_padrao)
-print("Margem de erro:", margem_erro)
-print("Intervalo de confianca de 99%: ({:.2f}, {:.2f})".format(limite_inferior, limite_superior))
+print("Media amostral: {:.4f}".format (media_amostral))
+print("Erro padrao: {:.4f}".format (erro_padrao))
+print("Margem de erro: {:.4f}".format (margem_erro))
+print("Intervalo de confianca de 99%: ({:.4f}, {:.4f})".format(limite_inferior, limite_superior))
