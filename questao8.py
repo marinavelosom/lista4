@@ -12,11 +12,9 @@ z = (media_amostral - media_hipotese_nula) / (desvio_padrao / math.sqrt(tamanho_
 # para 95% de confianca
 z_critico = 1.96
 
-# Exibindo resultados
 print(f'Estatistica z: {z}')
 print(f'Z critico para significancia de {nivel_significancia} (bilateral): {z_critico}')
 
-# Decisão
 if abs(z) > z_critico:
     print("Rejeitamos a hipótese nula. A informacao pode estar incorreta.")
 else:
